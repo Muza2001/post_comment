@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    password: 0075336
+    url: jdbc:postgresql://localhost:5432/project
+    username: postgres
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  main:
+    log-startup-info: true
+    output:
+      ansi:
+        enabled: always
+server:
+  port: 8080
+
+general:
+  transmitter:
+    email: muza5660@gmail.com
+    password: Muzap2001
+  private:
+    key: classpath:app.key
+  public:
+    key: classpath:app.pub
+  expiration:
+    time: 18_000_000
